@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82240" started-at="2020-03-03T23:10:35 PST" finished-at="2020-03-03T23:11:57 PST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="82240" started-at="2020-03-03T23:10:35 PST" finished-at="2020-03-03T23:11:57 PST">
+      <class name="runner.Run2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Run2@64729b1e]" name="setUpClass" is-config="true" duration-ms="188" started-at="2020-03-03T23:10:35 PST" finished-at="2020-03-03T23:10:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="20605" started-at="2020-03-03T23:10:35 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:10:55 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the creation of new lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CreateLead for LeafTaps"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="17526" started-at="2020-03-03T23:10:55 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:13 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the creation of new lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CreateLead for LeafTaps"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="17117" started-at="2020-03-03T23:11:13 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the creation of new lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CreateLead for LeafTaps"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="5694" started-at="2020-03-03T23:11:30 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="6477" started-at="2020-03-03T23:11:36 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:42 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="7726" started-at="2020-03-03T23:11:42 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:50 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Run2@64729b1e]" name="runScenario" duration-ms="6535" started-at="2020-03-03T23:11:50 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-03T23:11:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Run2@64729b1e]" name="tearDownClass" is-config="true" duration-ms="207" started-at="2020-03-03T23:11:57 PST" finished-at="2020-03-03T23:11:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Run2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
